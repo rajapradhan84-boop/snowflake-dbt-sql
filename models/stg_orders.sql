@@ -17,3 +17,4 @@ select
     total_amount::numeric as total_amount,
     created_at
 from raw_orders
+group by order_id, customer_id, order_date, order_status, total_amount, created_at
