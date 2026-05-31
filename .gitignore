@@ -1,0 +1,15 @@
+# Python / dbt
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+.env
+venv/
+.env*
+.DS_Store
+
+# dbt
+target/
+dbt_modules/
+logs/
